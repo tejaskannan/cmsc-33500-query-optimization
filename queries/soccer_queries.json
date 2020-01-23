@@ -1,0 +1,37 @@
+[
+    {
+        "frames": [ "match", "team", "country", "league" ],
+        "left": [ "{0}_team_api_id", "country_id", "country_id" ],
+        "right": [ "team_api_id", "id", "country_id" ]
+    },
+    {
+        "frames": [ "league", "match", "country", "team" ],
+        "left": [ "country_id", "country_id", "{0}_team_api_id" ],
+        "right": [ "country_id", "id", "team_api_id"]
+    },
+    {
+        "frames": [ "league", "country", "match", "team" ],
+        "left": [ "country_id", "country_id", "{0}_team_api_id" ],
+        "right": [ "id", "country_id", "team_api_id" ]
+    },
+    {
+        "frames": [ "team", "match", "league", "country" ],
+        "left": [ "team_api_id", "country_id", "country_id" ],
+        "right": [ "{0}_team_api_id", "country_id", "id" ]
+    },
+    {
+        "frames": [ "match", "league", "country", "team" ],
+        "left": [ "country_id", "country_id", "{0}_team_api_id" ],
+        "right": [ "country_id", "id", "team_api_id" ]
+    },
+    {
+        "frames": [ "match", "league", "team", "country" ],
+        "left": [ "country_id", "{0}_team_api_id", "country_id" ],
+        "right": [ "country_id", "team_api_id", "id" ]
+    },
+    {
+        "frames": [ "team", "match", "country", "league" ],
+        "left": [ "team_api_id", "country_id", "country_id" ],
+        "right": [ "{0}_team_api_id", "id", "country_id" ]
+    }
+]

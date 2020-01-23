@@ -1,0 +1,5 @@
+{
+    "name": "ucb1",
+    "params": { },
+    "output_file": "results/ucb1.pkl.gz"
+}

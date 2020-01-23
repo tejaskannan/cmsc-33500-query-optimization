@@ -1,0 +1,5 @@
+{
+    "name": "epsilon",
+    "params": { "epsilon": 0.1 },
+    "output_file": "results/epsilon-greedy-0.1.pkl.gz"
+}

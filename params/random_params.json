@@ -1,0 +1,5 @@
+{
+    "name": "random",
+    "params": { },
+    "output_file": "results/random.pkl.gz"
+}

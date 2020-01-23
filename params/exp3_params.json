@@ -1,0 +1,5 @@
+{
+    "name": "exp3",
+    "params": { "gamma": 0.07 },
+    "output_file": "results/exp3-0.07.pkl.gz"
+}

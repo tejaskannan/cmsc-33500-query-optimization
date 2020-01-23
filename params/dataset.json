@@ -1,0 +1,12 @@
+{
+    "base": "soccer",
+    "files": [
+       { "path": "player.csv", "name": "player" },
+       { "path": "match.csv", "name": "match" },
+       { "path": "league.csv", "name": "league" },
+       { "path": "country.csv", "name": "country" },
+       { "path": "team.csv", "name": "team" }
+    ],
+    "queries": "queries/soccer_queries.json"
+}
+

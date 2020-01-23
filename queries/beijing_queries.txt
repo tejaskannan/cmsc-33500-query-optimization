@@ -1,0 +1,1 @@
+SELECT * FROM Aotizhongxin a INNER JOIN Changping c INNER JOIN Dingling d ON a.year = c.year AND a.year = d.year;
